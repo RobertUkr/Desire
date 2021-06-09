@@ -1,15 +1,15 @@
 $title: #363838;
-$text:#5A5A5A;
-$default: #DFDFDF;
+$text: #5a5a5a;
+$default: #dfdfdf;
 
-%title-font{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+%title-font {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
-@function max($numbers...){
-    @return m#{a}x(#{$numbers});
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
 }
 @function min($numbers...) {
-    @return m#{i}n(#{$numbers});
+  @return m#{i}n(#{$numbers});
 }
